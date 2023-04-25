@@ -1,0 +1,42 @@
+# Basic Ted Syntax
+
+# Set 🧸 Properties
+🧸<-skills(math)
+
+# Some 🧸 Functions
+🧸->say("Hello Teddy!") # stdout
+🧸->yell("Error Message.") # stderr
+🧸->call("ls") # call system functions
+
+# Add variables
+🧸<-stuff(x, 'i', 0) # integer
+🧸<-pack(y, 'f', 4)  # array of float
+
+# Define functions
+🧸<-job(job_name(),
+    # function body
+)
+
+# Get variables
+🧸.x
+
+# Calculation
+x = x + 1
+
+# If Statement
+🧸->check(
+    condition,
+    statement 1,
+    statement 2
+)
+
+# While Logics
+
+# Exit
+🧸->bye
+🧸->bye(2) # with exit code
+
+# Set Skills
+🧸<-skill(
+
+)
